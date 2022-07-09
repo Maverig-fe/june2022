@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+
+}
+
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__widgets{
+    background-color: blue;
+    height: 300px;
+}
+
+.header__text{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding:110px;
+}
+
+.list{
+    padding: 10px;
+}
+.list__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.list__item {
+    width: 350px;
+    height: 250px;
+    background: #0a0a58;
+    margin-top:30px;
+}
+.list__title-1,
+.list__title-2,
+.list__title-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer{
+    padding: 15px;
+
+}
+.footer__box{
+    background-color: blue;
+    height: 500px;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+/*Одно єдине я не дуже впевнений що так можно паддінгом
+в центр спускати текст
+прошу пояснити які ще варіанти не кастильні центрувати текст
+Ну а поки так скидаю дз
+*/
